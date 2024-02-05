@@ -6,6 +6,14 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
+                <p>Click to see the Home score.</p>
+                <button onclick="homeScore()">Click me</button>
+                <p id="home"></p>
+                <script>
+                    function homeScore() {
+                      document.getElementById("home").innerHTML = "create script to produce home score";
+                    }
+                    </script>
             </div>
             <div>
                 <h3>AWAY</h3>
